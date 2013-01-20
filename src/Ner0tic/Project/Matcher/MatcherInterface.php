@@ -1,8 +1,8 @@
 <?php
 
-namespace Ner0tic\Project\Matcher;
+namespace Ner0tic\PortfolioMgmt\Matcher;
 
-use Ner0tic\Project\ItemInterface;
+use Ner0tic\PortfolioMgmt\ItemInterface;
 
 /**
  * Interface implemented by the item matcher

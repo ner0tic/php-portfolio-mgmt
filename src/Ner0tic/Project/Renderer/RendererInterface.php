@@ -1,8 +1,8 @@
 <?php
 
-namespace Ner0tic\Project\Renderer;
+namespace Ner0tic\PortfolioMgmt\Renderer;
 
-use Ner0tic\Project\ItemInterface;
+use Ner0tic\PortfolioMgmt\ItemInterface;
 
 interface RendererInterface
 {

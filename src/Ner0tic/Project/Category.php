@@ -1,5 +1,5 @@
 <?php
-namespace Ner0tic\Project;
+namespace Ner0tic\PortfolioMgmt;
 
 class Category implements \ArrayAccess, \Countable, \IteratorAggregate
 {

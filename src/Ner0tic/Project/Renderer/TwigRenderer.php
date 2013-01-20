@@ -1,9 +1,9 @@
 <?php
 
-namespace Ner0tic\Project\Renderer;
+namespace Ner0tic\PortfolioMgmt\Renderer;
 
-use Ner0tic\Project\ItemInterface;
-use Ner0tic\Project\Matcher\MatcherInterface;
+use Ner0tic\PortfolioMgmt\ItemInterface;
+use Ner0tic\PortfolioMgmt\Matcher\MatcherInterface;
 
 class TwigRenderer implements RendererInterface
 {

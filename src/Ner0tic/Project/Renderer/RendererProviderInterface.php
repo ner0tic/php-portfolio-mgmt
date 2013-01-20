@@ -1,6 +1,6 @@
 <?php
 
-namespace Ner0tic\Project\Renderer;
+namespace Ner0tic\PortfolioMgmt\Renderer;
 
 interface RendererProviderInterface
 {

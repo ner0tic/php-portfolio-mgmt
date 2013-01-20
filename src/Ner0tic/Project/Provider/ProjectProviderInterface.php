@@ -1,6 +1,6 @@
 <?php
 
-namespace Ner0tic\Project\Provider;
+namespace Ner0tic\PortfolioMgmt\Provider;
 
 interface ProjectProviderInterface
 {
@@ -10,7 +10,7 @@ interface ProjectProviderInterface
      * @param string $name
      * @param array  $options
      *
-     * @return \Ner0tic\Project\ItemInterface
+     * @return \Ner0tic\PortfolioMgmt\ItemInterface
      * @throws \InvalidArgumentException if the project does not exists
      */
     public function get($name, array $options = array());

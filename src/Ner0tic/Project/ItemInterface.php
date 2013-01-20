@@ -1,5 +1,5 @@
 <?php
-namespace Ner0tic\Project;
+namespace Ner0tic\PortfolioMgmt;
 
 /**
  * Interface implemented by a project item.
@@ -47,7 +47,7 @@ interface ItemInterface extends  \ArrayAccess, \Countable, \IteratorAggregate
     public function setDescription( $description );
     
     /**
-     * @return ProjectStatus $status
+     * @return Status $status
      */
     public function getStatus();
     
@@ -58,6 +58,31 @@ interface ItemInterface extends  \ArrayAccess, \Countable, \IteratorAggregate
      * @return ItemInterface
      */
     public function setStatus( $status );
+    
+    /**
+     * @return array $categories
+     */
+    public function getCategories();
+    
+    /**
+     * 
+     * @param array $categories
+     * 
+     * @return ItemInterface
+     */
+    public function setCategories( array $categories );
+    
+    /**
+     * @return Category $primary_category
+     */
+    public function getPrimaryCategory();
+    
+    /**
+     * 
+     * @param \Ner0tic\PortfolioMgmt\Category $category
+     * @return ItemInterface
+     */
+    public function setPrimaryCategory( Category $category );
     
     /**
      * Get the urls for a project item

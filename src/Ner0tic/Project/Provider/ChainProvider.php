@@ -1,6 +1,6 @@
 <?php
 
-namespace Ner0tic\Project\Provider;
+namespace Ner0tic\PortfolioMgmt\Provider;
 
 class ChainProvider implements ProjectProviderInterface
 {

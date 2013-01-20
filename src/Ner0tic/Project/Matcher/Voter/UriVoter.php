@@ -1,8 +1,8 @@
 <?php
 
-namespace Ner0tic\Project\Matcher\Voter;
+namespace Ner0tic\PortfolioMgmt\Matcher\Voter;
 
-use Ner0tic\Project\ItemInterface;
+use Ner0tic\PortfolioMgmt\ItemInterface;
 
 /**
  * Voter based on the uri

@@ -58,15 +58,6 @@ Add to `composer.json`:
 "ner0tic/php-portfolio-mgmt": "dev-master",
 // ...
 ```
-Add to `AppKernel.php`:
-```php
-$loader->registerNamespaces(
-    array(
-    // ...
-    'Ner0tic\PortfolioMgmt' => __DIR__.'/vendor/Ner0tic/PortfolioMgmt/src',
-    // ...
-));
-```
 
 ## Usage
 

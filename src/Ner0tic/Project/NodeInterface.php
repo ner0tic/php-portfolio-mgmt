@@ -1,6 +1,6 @@
 <?php
 
-namespace Ner0tic\Project;
+namespace Ner0tic\PortfolioMgmt;
 
 /**
  * Interface implemented by a node to construct a project from a tree.

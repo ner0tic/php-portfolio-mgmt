@@ -1,6 +1,6 @@
 <?php
 
-namespace Ner0tic\Project\Iterator;
+namespace Ner0tic\PortfolioMgmt\Iterator;
 
 /**
  * Recursive iterator iterating on an item

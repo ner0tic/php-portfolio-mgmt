@@ -1,6 +1,6 @@
 <?php
 
-namespace Ner0tic\Project;
+namespace Ner0tic\PortfolioMgmt;
 
 /**
  * Interface implemented by the factory to create items

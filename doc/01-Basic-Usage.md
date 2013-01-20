@@ -4,7 +4,7 @@ The basic rundown...
 
 Create a portfolio
 ------------------
-The portfolio framework's core is the interface `Ner0tic\PortfolioMgmt\ItemInterface`.   Items are created by a factory implementing Ner0tic\PortfolioMgmtFactoryInterface`.   
+The portfolio framework's core is the interface `Ner0tic\PortfolioMgmt\ItemInterface`.   Items are created by a factory implementing `Ner0tic\PortfolioMgmtFactoryInterface`.   
 The easiest way to think about it is that each `ItemInterface` object as a project - in an unordered list each one would be a `<li>` tag with nested children.
 An Example:
 ```php

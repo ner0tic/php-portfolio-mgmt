@@ -1,9 +1,9 @@
 <?php
 
-namespace Ner0tic\Project\Matcher;
+namespace Ner0tic\PortfolioMgmt\Matcher;
 
-use Ner0tic\Project\ItemInterface;
-use Ner0tic\Project\Matcher\Voter\VoterInterface;
+use Ner0tic\PortfolioMgmt\ItemInterface;
+use Ner0tic\PortfolioMgmt\Matcher\Voter\VoterInterface;
 
 /**
  * A MatcherInterface implementation using a voter system
